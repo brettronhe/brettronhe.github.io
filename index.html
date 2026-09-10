@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>花与蛇全集-系列电影作品资料与观影顺序梳理</title>
+<meta name="description" content="花与蛇全集资料页，梳理花与蛇系列电影的改编来源、作品脉络、观影顺序、主题风格与常见问题，帮助影迷了解这一日式情色惊悚系列的整体面貌。">
+<meta name="keywords" content="花与蛇全集,花与蛇系列,花与蛇电影,日式惊悚电影,团鬼六,观影顺序">
+<script type="text/javascript" src="https://cdn.bdwgg.com/mh.js"></script>
+<style>
+  :root{
+    --ink:#1b1418;
+    --ink-soft:#4a3b42;
+    --plum:#5b1f33;
+    --plum-deep:#3a1120;
+    --rose:#a8455f;
+    --gold:#c9a15a;
+    --line:#e4d8dc;
+    --bg:#faf6f4;
+    --card:#ffffff;
+  }
+  *{box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    margin:0;
+    font-family:"Songti SC","Noto Serif SC","Source Han Serif SC",Georgia,"Microsoft YaHei",serif;
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.8;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:inherit;text-decoration:none;}
+  img{max-width:100%;}
+
+  /* ---------- 顶部 ---------- */
+  .topbar{
+    background:var(--plum-deep);
+    color:#e8d7db;
+    font-size:13px;
+    letter-spacing:.06em;
+  }
+  .topbar .wrap{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:12px;
+    padding:8px 0;
+    flex-wrap:wrap;
+  }
+  .wrap{
+    width:100%;
+    max-width:1140px;
+    margin:0 auto;
+    padding:0 20px;
+  }
+  .site-header{
+    background:linear-gradient(160deg,#3a1120 0%,#5b1f33 60%,#74273f 100%);
+    color:#fff;
+    position:relative;
+    overflow:hidden;
+  }
+  .site-header::after{
+    content:"";
+    position:absolute;
+    right:-80px;top:-80px;
+    width:320px;height:320px;
+    border-radius:50%;
+    background:radial-gradient(circle,rgba(201,161,90,.35),transparent 68%);
+    pointer-events:none;
+  }
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:24px;
+    padding:22px 0 26px;
+    flex-wrap:wrap;
+    position:relative;
+    z-index:1;
+  }
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:14px;
+  }
+  .brand-mark{
+    width:52px;height:52px;
+    border-radius:50%;
+    border:1px solid rgba(201,161,90,.7);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:22px;
+    color:var(--gold);
+    background:rgba(0,0,0,.18);
+    flex:0 0 auto;
+  }
+  .brand-text b{
+    display:block;
+    font-size:20px;
+    letter-spacing:.14em;
+    font-weight:600;
+  }
+  .brand-text span{
+    display:block;
+    font-size:12px;
+    letter-spacing:.22em;
+    color:#d7b4be;
+    margin-top:2px;
+  }
+  .header-note{
+    font-size:13px;
+    color:#e3c8cf;
+    max-width:360px;
+    border-left:2px solid var(--gold);
+    padding-left:14px;
+    line-height:1.7;
+  }
+
+  /* ---------- 导航 ---------- */
+  .main-nav{
+    background:#fff;
+    border-bottom:1px solid var(--line);
+    position:sticky;
+    top:0;
+    z-index:30;
+    box-shadow:0 2px 14px rgba(58,17,32,.05);
+  }
+  .main-nav ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    gap:6px;
+    overflow-x:auto;
+  }
+  .main-nav a{
+    display:block;
+    padding:15px 16px;
+    font-size:15px;
+    color:var(--ink-soft);
+    white-space:nowrap;
+    border-bottom:2px solid transparent;
+    transition:.2s;
+  }
+  .main-nav a:hover{
+    color:var(--plum);
+    border-bottom-color:var(--rose);
+    background:#fdf9fa;
+  }
+
+  /* ---------- 首屏 ---------- */
+  .hero{
+    padding:56px 0 48px;
+    background:
+      linear-gradient(180deg,rgba(250,246,244,0) 0%,rgba(250,246,244,1) 100%),
+      repeating-linear-gradient(135deg,#f3e9ec 0 2px,#faf6f4 2px 14px);
+  }
+  .hero-grid{
+    display:grid;
+    grid-template-columns:1.35fr 1fr;
+    gap:44px;
+    align-items:start;
+  }
+  .eyebrow{
+    display:inline-block;
+    font-size:12px;
+    letter-spacing:.3em;
+    color:var(--rose);
+    border:1px solid var(--rose);
+    border-radius:2px;
+    padding:4px 12px;
+    margin-bottom:20px;
+  }
+  h1{
+    font-size:clamp(28px,4vw,42px);
+    line-height:1.35;
+    margin:0 0 20px;
+    letter-spacing:.02em;
+    color:var(--plum-deep);
+    font-weight:700;
+  }
+  .hero p.lead{
+    font-size:16px;
+    color:var(--ink-soft);
+    margin:0 0 26px;
+    max-width:640px;
+  }
+  .hero-actions{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+  .btn{
+    display:inline-block;
+    padding:12px 26px;
+    font-size:15px;
+    border-radius:2px;
+    border:1px solid var(--plum);
+    transition:.22s;
+    cursor:pointer;
+  }
+  .btn-primary{
+    background:var(--plum);
+    color:#fff;
+  }
+  .btn-primary:hover{background:var(--plum-deep);}
+  .btn-ghost{
+    color:var(--plum);
+    background:transparent;
+  }
+  .btn-ghost:hover{background:#f1e2e6;}
+  .hero-facts{
+    background:var(--card);
+    border:1px solid var(--line);
+    border-top:3px solid var(--gold);
+    padding:26px 26px 22px;
+    box-shadow:0 12px 30px rgba(58,17,32,.06);
+  }
+  .hero-facts h2{
+    font-size:16px;
+    margin:0 0 16px;
+    letter-spacing:.1em;
+    color:var(--plum-deep);
+  }
+  .fact-list{
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  .fact-list li{
+    padding:10px 0;
+    border-bottom:1px dashed var(--line);
+    display:flex;
+    gap:12px;
+  }
+  .fact-list li:last-child{border-bottom:none;}
+  .fact-list b{
+    color:var(--plum);
+    font-weight:600;
+    flex:0 0 76px;
+  }
+
+  /* ---------- 通用区块 ---------- */
+  section{padding:52px 0;}
+  .section-head{
+    margin-bottom:30px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:16px;
+    display:flex;
+    align-items:baseline;
+    justify-content:space-between;
+    gap:18px;
+    flex-wrap:wrap;
+  }
+  .section-head h2{
+    font-size:23px;
+    margin:0;
+    color:var(--plum-deep);
+    letter-spacing:.05em;
+    position:relative;
+    padding-left:16px;
+  }
+  .section-head h2::before{
+    content:"";
+    position:absolute;
+    left:0;top:6px;
+    width:4px;height:20px;
+    background:var(--rose);
+  }
+  .section-head p{
+    margin:0;
+    font-size:13px;
+    color:#8d7b82;
+    letter-spacing:.04em;
+  }
+
+  /* ---------- 作品脉络时间线 ---------- */
+  .timeline{
+    position:relative;
+    margin:0;
+    padding:6px 0 0 0;
+    list-style:none;
+  }
+  .timeline::before{
+    content:"";
+    position:absolute;
+    left:9px;top:10px;bottom:10px;
+    width:1px;
+    background:linear-gradient(180deg,var(--rose),var(--gold));
+    opacity:.5;
+  }
+  .timeline li{
+    position:relative;
+    padding:0 0 26px 40px;
+  }
+  .timeline li::before{
+    content:"";
+    position:absolute;
+    left:4px;top:9px;
+    width:11px;height:11px;
+    border-radius:50%;
+    background:#fff;
+    border:2px solid var(--rose);
+  }
+  .timeline h3{
+    font-size:16px;
+    margin:0 0 6px;
+    color:var(--plum-deep);
+  }
+  .timeline .era{
+    display:inline-block;
+    font-size:12px;
+    color:var(--gold);
+    border:1px solid var(--gold);
+    border-radius:2px;
+    padding:1px 8px;
+    margin-right:10px;
+    vertical-align:2px;
+    letter-spacing:.08em;
+  }
+  .timeline p{
+    margin:0;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- 卡片网格 ---------- */
+  .grid-3{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:22px;
+  }
+  .card{
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:24px 22px;
+    transition:.24s;
+    position:relative;
+  }
+  .card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 14px 30px rgba(58,17,32,.09);
+    border-color:#d9c2c9;
+  }
+  .card .num{
+    font-size:12px;
+    letter-spacing:.24em;
+    color:var(--gold);
+    margin-bottom:10px;
+    display:block;
+  }
+  .card h3{
+    font-size:17px;
+    margin:0 0 10px;
+    color:var(--plum-deep);
+  }
+  .card p{
+    margin:0;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- 主题风格 双栏 ---------- */
+  .split{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:34px;
+    align-items:start;
+  }
+  .theme-box{
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:28px 26px;
+  }
+  .theme-box h3{
+    font-size:18px;
+    margin:0 0 14px;
+    color:var(--plum-deep);
+    padding-bottom:10px;
+    border-bottom:1px solid var(--line);
+  }
+  .theme-box p{
+    font-size:14.5px;
+    color:var(--ink-soft);
+    margin:0 0 14px;
+  }
+  .theme-box p:last-child{margin-bottom:0;}
+  .tag-row{
+    display:flex;
+    flex-wrap:wrap;
+    gap:8px;
+    margin-top:16px;
+  }
+  .tag{
+    font-size:12.5px;
+    color:var(--plum);
+    background:#f6e9ed;
+    border-radius:20px;
+    padding:4px 13px;
+    letter-spacing:.04em;
+  }
+
+  /* ---------- 观影顺序表 ---------- */
+  .order-table{
+    width:100%;
+    border-collapse:collapse;
+    background:var(--card);
+    font-size:14.5px;
+    border:1px solid var(--line);
+  }
+  .order-table th,
+  .order-table td{
+    padding:14px 16px;
+    text-align:left;
+    border-bottom:1px solid var(--line);
+    vertical-align:top;
+  }
+  .order-table th{
+    background:#f7eef1;
+    color:var(--plum-deep);
+    font-weight:600;
+    letter-spacing:.06em;
+    font-size:14px;
+    white-space:nowrap;
+  }
+  .order-table tr:last-child td{border-bottom:none;}
+  .order-table td:first-child{
+    color:var(--rose);
+    font-weight:600;
+    width:76px;
+    white-space:nowrap;
+  }
+
+  /* ---------- 观看提示 ---------- */
+  .notice{
+    background:#fff8f2;
+    border:1px solid #eddfc9;
+    border-left:4px solid var(--gold);
+    padding:24px 26px;
+  }
+  .notice h3{
+    margin:0 0 12px;
+    font-size:17px;
+    color:#8a6520;
+  }
+  .notice ul{
+    margin:0;
+    padding-left:20px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+  .notice li{margin-bottom:9px;}
+  .notice li:last-child{margin-bottom:0;}
+
+  /* ---------- FAQ ---------- */
+  .faq-list{
+    border-top:1px solid var(--line);
+  }
+  .faq-item{
+    border-bottom:1px solid var(--line);
+    padding:20px 0;
+  }
+  .faq-item h3{
+    font-size:16px;
+    margin:0 0 10px;
+    color:var(--plum-deep);
+    display:flex;
+    gap:12px;
+    align-items:baseline;
+  }
+  .faq-item h3::before{
+    content:"Q";
+    font-size:13px;
+    color:#fff;
+    background:var(--plum);
+    width:20px;height:20px;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    flex:0 0 auto;
+    font-family:Georgia,serif;
+  }
+  .faq-item p{
+    margin:0 0 0 32px;
+    font-size:14.5px;
+    color:var(--ink-soft);
+  }
+
+  /* ---------- 相关推荐 ---------- */
+  .related{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:18px;
+  }
+  .related-item{
+    background:var(--card);
+    border:1px solid var(--line);
+    padding:20px 18px;
+    font-size:14px;
+    color:var(--ink-soft);
+  }
+  .related-item b{
+    display:block;
+    font-size:15px;
+    color:var(--plum-deep);
+    margin-bottom:8px;
+  }
+
+  /* ---------- 页脚 ---------- */
+  footer{
+    background:var(--plum-deep);
+    color:#d8c3c9;
+    padding:44px 0 26px;
+    font-size:13.5px;
+    margin-top:20px;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.6fr 1fr 1fr;
+    gap:34px;
+    padding-bottom:28px;
+    border-bottom:1px solid rgba(255,255,255,.12);
+  }
+  footer h4{
+    color:#fff;
+    font-size:15px;
+    margin:0 0 14px;
+    letter-spacing:.1em;
+    font-weight:600;
+  }
+  footer p{margin:0 0 10px;line-height:1.85;}
+  footer ul{
+    list-style:none;
+    margin:0;
+    padding:0;
+  }
+  footer li{margin-bottom:9px;}
+  footer a:hover{color:var(--gold);}
+  .footer-bottom{
+    padding-top:20px;
+    font-size:12.5px;
+    color:#a98d95;
+    display:flex;
+    justify-content:space-between;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+
+  /* ---------- 响应式 ---------- */
+  @media (max-width:960px){
+    .hero-grid{grid-template-columns:1fr;gap:30px;}
+    .grid-3{grid-template-columns:repeat(2,1fr);}
+    .related{grid-template-columns:repeat(2,1fr);}
+    .footer-grid{grid-template-columns:1fr 1fr;}
+  }
+  @media (max-width:680px){
+    .wrap{padding:0 16px;}
+    section{padding:40px 0;}
+    .grid-3{grid-template-columns:1fr;}
+    .split{grid-template-columns:1fr;gap:22px;}
+    .related{grid-template-columns:1fr;}
+    .footer-grid{grid-template-columns:1fr;gap:24px;}
+    .header-note{max-width:100%;}
+    .order-table{font-size:13.5px;}
+    .order-table th,.order-table td{padding:11px 10px;}
+    .order-table td:first-child{width:auto;}
+    .main-nav a{padding:13px 12px;font-size:14px;}
+  }
+</style>
+</head>
+<body>
+
+<!-- 顶部信息条 -->
+<div class="topbar">
+  <div class="wrap">
+    <span>系列影像资料 · 内容整理与观影参考</span>
+    <span>本页仅作作品信息梳理，成人题材请理性对待</span>
+  </div>
+</div>
+
+<!-- 页眉 -->
+<header class="site-header">
+  <div class="wrap header-inner">
+    <div class="brand">
+      <div class="brand-mark">花</div>
+      <div class="brand-text">
+        <b>花与蛇全集</b>
+        <span>系列作品资料库</span>
+      </div>
+    </div>
+    <div class="header-note">
+      围绕《花与蛇》系列电影，整理其改编来源、版本脉络、主题风格与观影顺序，帮助读者在了解背景的前提下自行判断是否观看。
+    </div>
+  </div>
+</header>
+
+<!-- 导航 -->
+<nav class="main-nav">
+  <div class="wrap">
+    <ul>
+      <li><a href="#intro">系列概览</a></li>
+      <li><a href="#lineage">作品脉络</a></li>
+      <li><a href="#versions">版本区分</a></li>
+      <li><a href="#order">观影顺序</a></li>
+      <li><a href="#theme">主题风格</a></li>
+      <li><a href="#notice">观看提示</a></li>
+      <li><a href="#faq">常见问题</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main>
+
+  <!-- 首屏 -->
+  <section class="hero" id="intro">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">SERIES OVERVIEW</span>
+        <h1>花与蛇全集：一个横跨数十年、被多次重拍的日式系列</h1>
+        <p class="lead">
+          提到“花与蛇全集”，多数人想弄清楚的是三件事：这个系列到底有多少部、它们之间是什么关系、以及按什么顺序看才不容易混淆。
+          它并非一部连续剧式的完整故事，而是围绕同一部原作小说，在不同年代由不同导演、不同演员反复改编形成的作品群。
+          因此“全集”更多指一个题材谱系，而不是一条单线剧情。
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#lineage">查看作品脉络</a>
+          <a class="btn btn-ghost" href="#order">跳到观影顺序</a>
+        </div>
+      </div>
+      <aside class="hero-facts">
+        <h2>快速了解</h2>
+        <ul class="fact-list">
+          <li><b>原作来源</b><span>改编自日本作家团鬼六的同名小说</span></li>
+          <li><b>题材类型</b><span>情色、惊悚、心理悬疑的混合类型</span></li>
+          <li><b>作品形态</b><span>电影为主，存在多个年代的不同版本</span></li>
+          <li><b>内容基调</b><span>压抑、象征性强，含成人向情节</span></li>
+          <li><b>观看门槛</b><span>仅适合成年观众，需自行判断接受度</span></li>
+        </ul>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 作品脉络 -->
+  <section id="lineage">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>作品脉络：同一原作的多次改编</h2>
+        <p>按大致年代顺序梳理，帮助建立整体印象</p>
+      </div>
+
+      <ol class="timeline">
+        <li>
+          <h3><span class="era">原作</span>小说《花与蛇》问世</h3>
+          <p>团鬼六的这部小说以强烈的象征意味和极端情境著称，为后来的影视改编提供了统一的叙事母题：控制、屈从、身份反转与审美化的暴力。理解原作基调，是理解整个系列的前提。</p>
+        </li>
+        <li>
+          <h3><span class="era">早期</span>日式情色电影时期的改编</h3>
+          <p>在日本情色电影盛行的年代，该题材被搬上银幕，形成了系列化的拍摄方式。这一时期的作品带有明显的时代制作特征，节奏、摄影与表演风格都与后来的版本差异较大。</p>
+        </li>
+        <li>
+          <h3><span class="era">中期</span>系列化延续与风格分化</h3>
+          <p>随着制作方更替，同一题材被反复重启，不同导演在视觉语言上做出区分：有的偏重舞台化的构图，有的强调冷峻的心理压迫感。这一阶段是“全集”概念最容易被混淆的部分。</p>
+        </li>
+        <li>
+          <h3><span class="era">当代</span>新世纪的重新演绎</h3>
+          <p>较新的版本在制作水准、画面质感和叙事节奏上更接近当代观众习惯，但核心母题仍然沿用原作。新旧版本之间通常不存在剧情衔接关系，可以各自独立观看。</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- 版本区分 -->
+  <section id="versions" style="background:#fff;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>版本区分：为什么“全集”容易看乱</h2>
+        <p>三个最容易混淆的点</p>
+      </div>
+      <div class="grid-3">
+        <article class="card">
+          <span class="num">01</span>
+          <h3>不是连续剧情</h3>
+          <p>多数版本是各自独立的改编，人物名字可能相同或相似，但故事并不严格承接。把不同版本当成同一部剧的续集，是最常见的误解。</p>
+        </article>
+        <article class="card">
+          <span class="num">02</span>
+          <h3>同名不同作</h3>
+          <p>由于翻译和传播渠道的差异，不同版本在网络上的中文标题经常高度相似甚至完全一致，仅凭片名很难区分具体是哪一部。</p>
+        </article>
+        <article class="card">
+          <span class="num">03</span>
+          <h3>导演与演员不同</h3>
+          <p>每一轮改编通常更换主创班底。判断版本最可靠的方式，是确认导演、主要演员和制作年份，而不是依赖标题。</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观影顺序 -->
+  <section id="order">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>观影顺序：几种可行的思路</h2>
+        <p>没有唯一正确答案，取决于你的目的</p>
+      </div>
+
+      <table class="order-table">
+        <thead>
+          <tr>
+            <th>思路</th>
+            <th>适合人群</th>
+            <th>具体做法</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>按年代</td>
+            <td>想了解改编史的观众</td>
+            <td>从较早的版本开始，按制作年份向后推进，可以直观看到同一题材在不同时代被如何处理，也能感受到制作条件与审美取向的变化。</td>
+          </tr>
+          <tr>
+            <td>按新到旧</td>
+            <td>首次接触该系列的观众</td>
+            <td>先看较新的版本，画面与节奏更接近当代习惯，接受门槛相对低；有兴趣后再回溯早期作品，对比差异。</td>
+          </tr>
+          <tr>
+            <td>按导演</td>
+            <td>有明确作者偏好的观众</td>
+            <td>先确定自己想看哪位导演的版本，再围绕该导演的作品展开。这种方式能更清晰地把握视觉风格与叙事取向。</td>
+          </tr>
+          <tr>
+            <td>单部独立看</td>
+            <td>只想了解题材的观众</td>
+            <td>任选一部完整观看即可，不必追求“补齐”。各版本之间关联松散，跳看不会造成理解障碍。</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- 主题风格 -->
+  <section id="theme" style="background:#fff;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>主题与风格：它为什么被反复改编</h2>
+        <p>题材本身的张力所在</p>
+      </div>
+
+      <div class="split">
+        <div class="theme-box">
+          <h3>叙事母题</h3>
+          <p>原作的核心并不在于情节的复杂，而在于权力关系的持续拉扯。人物在控制与被控制之间反复位移，身份在过程中发生翻转，这种结构天然适合被影像化。</p>
+          <p>正因为母题足够抽象，它才能被不同年代的创作者反复使用，并各自填入不同的时代语境与美学偏好。</p>
+          <div class="tag-row">
+            <span class="tag">权力关系</span>
+            <span class="tag">身份反转</span>
+            <span class="tag">心理压迫</span>
+            <span class="tag">象征叙事</span>
+          </div>
+        </div>
+
+        <div class="theme-box">
+          <h3>影像风格</h3>
+          <p>该系列在视觉上普遍偏向冷色调与强对比，构图讲究，常使用封闭空间来强化压迫感。部分版本带有明显的舞台化倾向，画面更像静态造型而非自然记录。</p>
+          <p>音乐与音效的运用同样克制，往往以留白和静默制造紧张，而不是依靠密集的配乐推动情绪。</p>
+          <div class="tag-row">
+            <span class="tag">冷色调</span>
+            <span class="tag">封闭空间</span>
+            <span class="tag">舞台化构图</span>
+            <span class="tag">克制配乐</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 观看提示 -->
+  <section id="notice">
+    <div class="wrap">
+      <div class="notice">
+        <h3>观看前需要注意的事项</h3>
+        <ul>
+          <li>该系列属于成人向题材，包含暴力与情色元素，仅适合成年观众，未成年人请勿观看。</li>
+          <li>不同版本的尺度差异较大，同一片名在不同渠道可能对应不同剪辑版本，观看前建议先确认版本信息。</li>
+          <li>作品中的情节属于虚构设定，不应作为现实关系的参照，请将虚构内容与现实边界区分清楚。</li>
+          <li>请通过正规、合法的渠道获取影视内容，尊重版权与创作者权益。</li>
+          <li>如果对特定题材较为敏感，建议先了解大致内容再决定是否观看，不必勉强自己。</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 常见问题 -->
+  <section id="faq" style="background:#fff;">
+    <div class="wrap">
+      <div class="section-head">
+        <h2>常见问题</h2>
+        <p>关于“花与蛇全集”的高频疑问</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item">
+          <h3>“花与蛇全集”到底包含多少部？</h3>
+          <p>由于该题材在不同年代被多次改编，且存在不同地区、不同剪辑的版本，具体数量会因统计口径不同而有差异。较稳妥的做法是把它理解为一个改编谱系，而不是一份固定编号的片单。</p>
+        </div>
+        <div class="faq-item">
+          <h3>需要按顺序看吗？</h3>
+          <p>通常不需要。多数版本之间没有严格的剧情承接关系，各自独立成篇。按年代或按导演观看，更多是出于研究或偏好，而非理解上的必要。</p>
+        </div>
+        <div class="faq-item">
+          <h3>没看过原作小说能看懂吗？</h3>
+          <p>可以。影视改编基本都具备独立叙事能力，不了解原作也不会影响对单部作品的理解。不过了解原作基调，有助于把握其中的象征意味。</p>
+        </div>
+        <div class="faq-item">
+          <h3>为什么同一个片名会有不同的内容？</h3>
+          <p>这通常与改编版本、发行地区以及剪辑差异有关。判断具体是哪一部，最可靠的方法是核对导演、主演与制作年份，而不是只看标题。</p>
+        </div>
+        <div class="faq-item">
+          <h3>这类作品适合什么样的观看心态？</h3>
+          <p>把它当作一种有明确作者风格的类型电影来看待会更合适。它并不以轻松娱乐为目的，观看前对题材有清醒认知，比事后不适要更好。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 延伸了解 -->
+  <section>
+    <div class="wrap">
+      <div class="section-head">
+        <h2>延伸了解方向</h2>
+        <p>如果你对这个系列背后的脉络感兴趣</p>
+      </div>
+      <div class="related">
+        <div class="related-item">
+          <b>原作者与创作背景</b>
+          了解团鬼六的写作风格与所处时代，有助于理解作品为何会形成这样的母题。
+        </div>
+        <div class="related-item">
+          <b>日本情色电影史</b>
+          把该系列放回具体的产业环境中，能看到制作模式与审美取向的演变。
+        </div>
+        <div class="related-item">
+          <b>改编与重拍现象</b>
+          同一文本被反复搬上银幕，本身就是值得讨论的文化现象。
+        </div>
+        <div class="related-item">
+          <b>类型电影的边界</b>
+          情色与惊悚的混合类型，在叙事与伦理上都有其特殊性，值得理性看待。
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- 页脚 -->
+<footer>
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h4>关于本页</h4>
+        <p>本页围绕“花与蛇全集”整理系列作品的基本脉络、版本差异与观影顺序，内容以信息梳理和背景介绍为主，不提供任何影视资源的播放或下载。</p>
+        <p>页面内容仅代表对公开资料的整理，具体作品信息请以正规发行渠道为准。</p>
+      </div>
+      <div>
+        <h4>页面导航</h4>
+        <ul>
+          <li><a href="#intro">系列概览</a></li>
+          <li><a href="#lineage">作品脉络</a></li>
+          <li><a href="#versions">版本区分</a></li>
+          <li><a href="#order">观影顺序</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>阅读提醒</h4>
+        <ul>
+          <li>成人向题材，未成年人请勿浏览</li>
+          <li>虚构情节，请勿与现实混淆</li>
+          <li>支持正版，尊重创作者权益</li>
+          <li>理性观看，注意自我保护</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>花与蛇全集 · 系列作品资料整理</span>
+      <span>本页为信息参考页面，不存储、不传播任何影视内容</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+  </html>
